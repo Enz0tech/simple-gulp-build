@@ -22,3 +22,8 @@
 [del](https://www.npmjs.com/package/del/v/6.0.0) Удаление каталогов и файлов  
 [gulp-concat](https://www.npmjs.com/package/gulp-concat) Объединение нескольких файлов в один  
 [gulp-rename](https://www.npmjs.com/package/gulp-rename) Переименовывает файлы  
+[gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps) Показывает пути стилей и пути скриптов к файлу в инструментах разработчика  
+[gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer/v/6.1.0) Автопрефиксер кода CSS для поддержки разных браузеров  
+[gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin/v/7.0.0) Сжатие изображений  
+[gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin) Минификация html  
+[gulp-size](https://www.npmjs.com/package/gulp-size/v/4.0.0) Показывает размеры файлов  
