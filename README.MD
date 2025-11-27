@@ -1,8 +1,9 @@
 # Простая сборка Gulp
 
-## Структура каталогов
+## Структура каталогов  
+Вся разработка будет в папке src, там создавайте структуру так. После всё будет собрано в новый каталог dist.  
 >src\scripts\main.js  
->src\styles\main.less
+>src\styles\main.scss
 
 ## Инструкция:
 
@@ -14,7 +15,9 @@
 
 ## Установленные NPM пакеты
 [gulp](https://www.npmjs.com/package/gulp) Сборщик Gulp  
-[gulp-less](https://www.npmjs.com/package/gulp-less) Компиляция Less файлов  
+[gulp-less](https://www.npmjs.com/package/gulp-less) Компиляция Less файлов, вызов заккоментирован в функции styles() для работы SASS(SCSS)  
+[gulp-sass](https://www.npmjs.com/package/gulp-sass) Компиляция SASS(SCSS) файлов  
+[gulp-typescript](https://www.npmjs.com/package/gulp-typescript) TypeScript  
 [gulp-uglify](https://www.npmjs.com/package/gulp-uglify) Сжатие и оптимизация JavaScript кода  
 [gulp-babel](https://www.npmjs.com/package/gulp-babel) Преобразует JavaScript в старый стандарт  
 [@babel/core](https://www.npmjs.com/package/@babel/core) Ядро Babel  
@@ -27,3 +30,4 @@
 [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin/v/7.0.0) Сжатие изображений  
 [gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin) Минификация html  
 [gulp-size](https://www.npmjs.com/package/gulp-size/v/4.0.0) Показывает размеры файлов  
+[gulp-browserSync](https://browsersync.io/docs/gulp) Запуск своего локального сервера с отслеживанием изменений в файлах  
